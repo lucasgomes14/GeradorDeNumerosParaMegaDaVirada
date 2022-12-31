@@ -33,7 +33,10 @@ public class GenerationNumbers {
 
 		Collections.sort(arrayRandom);
 		
+
+
 		for(int print : arrayRandom)
-			System.out.println(print);
+			System.out.print(print + " ");
+		System.out.println("\n\n");
 	}
 }
